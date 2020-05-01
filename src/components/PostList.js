@@ -4,7 +4,16 @@ import Post from './Post';
 class PostList extends React.Component{
   render(){
     return(
-      <div className="ui container">
+      <div className="ui stackable grid container">
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
         <Post />
         <Post />
         <Post />

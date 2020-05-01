@@ -6,11 +6,13 @@ import CardFooter from './CardFooter';
 
 const Post = (props) => {
   return (
-    <div class="ui card">
-  	  <CardHeader />
-  		<CardContent />
-  		<CardFooter />
-  	</div>
+    <div className="ui four wide column">
+      <div className="ui card">
+    	  <CardHeader />
+    		<CardContent />
+    		<CardFooter />
+    	</div>
+    </div>
   )
 }
 

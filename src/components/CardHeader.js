@@ -2,7 +2,7 @@ import React from 'react'
 
 const CardHeader = () => {
   return (
-    <div class="image">
+    <div className="image">
       <img src="image.png" />
     </div>
   )
