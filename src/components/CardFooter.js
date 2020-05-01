@@ -1,12 +1,12 @@
 import React from 'react';
 
-const CardFooter = () => {
+const CardFooter = ({meta, blogUrl}) => {
   return (
     <div className="content icons">
-      <span><i className="comment outline icon"></i> 2</span>
-      <span><i className="history icon"></i> 47</span>
-      <span><i className="heart red icon"></i> 100</span>
-      <a href="#" target="_blank"><i className="share square outline icon"></i></a>
+      <span><i className="comment outline icon"></i> {meta.comments}</span>
+      <span><i className="history icon"></i> {meta.visited}</span>
+      <span><i className="heart red icon"></i> {meta.likes}</span>
+      <a href="{blogUrl}" target="_blank"><i className="share square outline icon"></i></a>
     </div>
   )
 }

@@ -1,13 +1,13 @@
 import React from 'react';
 
 
-const CardContent = () => {
+const CardContent = ({title, description, username}) => {
   return (
     <div className="content">
-      <strong>Learning React? Start Small.</strong>
-      <p className="description">Can't pry yourself away from the tutorials? The cure is to make tiny experimental apps.</p>
+      <strong>{title}</strong>
+      <p className="description">{description}</p>
       <div className="meta">
-        <span>dev.io</span>
+        <span>{username}</span>
       </div>
     </div>
   )

@@ -1,9 +1,9 @@
 import React from 'react'
 
-const CardHeader = () => {
+const CardHeader = ({image}) => {
   return (
     <div className="image">
-      <img src="image.png" alt="Post Cover" />
+      <img src="{image}" alt="Post Cover" />
     </div>
   )
 }
