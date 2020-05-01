@@ -6,7 +6,7 @@ import CardFooter from './CardFooter';
 
 const Post = ({post}) => {
   return (
-    <div className="ui four wide column">
+    <div className="ui five wide column">
       <div className="ui card">
     	  <CardHeader image={post.image} />
     		<CardContent

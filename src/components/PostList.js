@@ -12,7 +12,7 @@ class PostList extends React.Component{
 
   renderPosts = () => {
     return (
-        <div className="ui stacked grid container">
+        <div className="ui stackable grid container">
           {this.props.posts.map(post => <Post key={post.id} post={post} />)}
         </div>
       );
