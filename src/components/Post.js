@@ -4,13 +4,17 @@ import CardHeader from './CardHeader';
 import CardContent from './CardContent';
 import CardFooter from './CardFooter';
 
-const Post = (props) => {
+const Post = ({post}) => {
   return (
     <div className="ui four wide column">
       <div className="ui card">
-    	  <CardHeader />
-    		<CardContent />
-    		<CardFooter />
+    	  <CardHeader image={post.image} />
+    		<CardContent
+          title={post.title}
+          description={post.description}
+          username={post.username}
+        />
+    		<CardFooter stats={post.stats} blogUrl={post.url}/>
     	</div>
     </div>
   )
