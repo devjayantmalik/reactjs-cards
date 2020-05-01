@@ -6,7 +6,7 @@ const CardFooter = () => {
       <span><i className="comment outline icon"></i> 2</span>
       <span><i className="history icon"></i> 47</span>
       <span><i className="heart red icon"></i> 100</span>
-      <a href="#"><i className="share square outline icon"></i></a>
+      <a href="#" target="_blank"><i className="share square outline icon"></i></a>
     </div>
   )
 }
